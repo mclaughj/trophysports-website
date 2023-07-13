@@ -1,6 +1,6 @@
-baseURL = 'https://trophysports.net/'
-languageCode = 'en-us'
-title = 'Trophy Sports'
+baseURL = "https://trophysports.net/"
+languageCode = "en-us"
+title = "Trophy Sports"
 theme = "aspho"
 
 # Navigation Bar
