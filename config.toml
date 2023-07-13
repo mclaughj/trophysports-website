@@ -1,40 +1,15 @@
 baseURL = "https://trophysports.net/"
 languageCode = "en-us"
 title = "Trophy Sports"
-theme = "aspho"
+theme = "graysx"
 
-# Navigation Bar
-[[menu.main]]
-	name = "Home"
-	url = "#hero"
-	weight = 1
-[[menu.main]]
-	name = "About"
-	url = "#feature"
-	weight = 2
-[[menu.main]]
-	name = "Services"
-	url = "#faq"
-	weight = 3
-[[menu.main]]
-	name = "Blog"
-	url = "#blog"
-	weight = 4
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "#about"
+  weight = 1
 
-# Footer Sitemap
-[[menu.sitemap]]
-	name = "Home"
-	url = "#"
-	weight = 1
-[[menu.sitemap]]
-	name = "Latest Article"
-	url = "/blog"
-	weight = 2
-[[menu.sitemap]]
-	name = "Privacy & Policy"
-	url = "/privacy"
-	weight = 3
-[[menu.sitemap]]
-	name = "Contact"
-	url = "/contact"
-	weight = 4
+  [[menu.main]]
+  name = "Sign Up"
+  URL = "#signup"
+  weight = 2
