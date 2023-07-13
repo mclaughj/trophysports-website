@@ -1,3 +1,40 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://trophysports.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Trophy Sports'
+theme = "aspho"
+
+# Navigation Bar
+[[menu.main]]
+	name = "Home"
+	url = "#hero"
+	weight = 1
+[[menu.main]]
+	name = "About"
+	url = "#feature"
+	weight = 2
+[[menu.main]]
+	name = "Services"
+	url = "#faq"
+	weight = 3
+[[menu.main]]
+	name = "Blog"
+	url = "#blog"
+	weight = 4
+
+# Footer Sitemap
+[[menu.sitemap]]
+	name = "Home"
+	url = "#"
+	weight = 1
+[[menu.sitemap]]
+	name = "Latest Article"
+	url = "/blog"
+	weight = 2
+[[menu.sitemap]]
+	name = "Privacy & Policy"
+	url = "/privacy"
+	weight = 3
+[[menu.sitemap]]
+	name = "Contact"
+	url = "/contact"
+	weight = 4
