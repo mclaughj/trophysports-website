@@ -178,6 +178,7 @@
  html {
    font:16px/1.5 Inconsolata, sans-serif;
    background-color:#111;
+   height: 100%;
  }
 
  @media (min-width: 30rem) {
@@ -188,7 +189,8 @@
 
  body {
    color: #eee;
-   background-color:#111
+   background-color:#111;
+   height: 100%;
  }
 
  @media (min-width: 30rem) {
